@@ -21,9 +21,12 @@ const Concerns = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 my-5 justify-between items-center mx-5">
+      <div className="grid grid-cols-2 xl:grid-cols-3 my-5 justify-between items-center mx-5">
         {Treatments.map((treatments) => (
-          <div className="bg-[#2E37A4]/[4%] px-5 py-1 m-2 rounded-lg">
+          <div
+            key={Math.random()}
+            className="bg-[#2E37A4]/[4%] px-5 py-1 m-2 rounded-lg"
+          >
             <p>{treatments}</p>
           </div>
         ))}

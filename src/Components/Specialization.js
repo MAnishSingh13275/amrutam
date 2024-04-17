@@ -13,30 +13,30 @@ const Specialization = () => {
         </div>
       </div>
 
-      <div className="flex justify-between w-[75%] my-10 mx-5 ">
+      <div className="my-10 mx-5 lg:grid lg:grid-cols-2 xl:grid-cols-4">
         <div className="text-center">
           <div className="bg-[#FDF8E5] flex justify-center items-center p-3 mx-5 rounded-lg">
             <img src={Women} alt="" />
           </div>
-          <p className="mt-3 text-md">Women's Health</p>
+          <p className="mb-3 text-md">Women's Health</p>
         </div>
         <div className="text-center">
           <div className="bg-[#FDF8E5] flex justify-center items-center p-3 mx-5 rounded-lg">
             <img src={Skincare} alt="" />
           </div>
-          <p className="mt-3 text-md">Skin Care</p>
+          <p className="mb-3 text-md">Skin Care</p>
         </div>
         <div className="text-center">
           <div className="bg-[#FDF8E5] flex justify-center items-center p-3 mx-5 rounded-lg">
             <img src={Immunity} alt="" />
           </div>
-          <p className="mt-3 text-md">Immunity</p>
+          <p className="mb-3 text-md">Immunity</p>
         </div>
         <div className="text-center">
           <div className="bg-[#FDF8E5] flex justify-center items-center p-3 mx-5 rounded-lg">
             <img src={Hair} alt="" />
           </div>
-          <p className="mt-3 text-md">Hair Care</p>
+          <p className="mb-3 text-md">Hair Care</p>
         </div>
       </div>
     </div>
