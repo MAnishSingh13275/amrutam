@@ -36,15 +36,18 @@ const Mode = () => {
             onClick={() => {
               setMode(Sessionmode.id);
             }}
-            className="rounded-xl md:text-lg w-full flex flex-col justify-center items-center"
+            className="rounded-xl md:text-lg w-full flex lg:flex-row justify-center items-center gap-3"
           >
-            <div className="flex items-center justify-center gap-3">
+            <div className="flex lg:flex-col items-center justify-center gap-3 lg:gap-0">
               <p className="text-xs lg:text-xl font-semibold">
                 {Sessionmode.name}
-              </p>
-              <FaCheckCircle className={`${Sessionmode.id === mode ? "":"hidden"}`} color="#3A643B" />
+              </p>  
+              <p className="text-xs lg:text-lg">{Sessionmode.duration}</p>
             </div>
-            <p className="text-xs lg:text-lg">{Sessionmode.duration}</p>
+            <FaCheckCircle
+              className={`${Sessionmode.id === mode ? "" : "hidden"}`}
+              color="#3A643B"
+            />
           </button>
         </div>
       ))}

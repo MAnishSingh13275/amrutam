@@ -9,7 +9,7 @@ const ProfileBar = () => {
   const [rating, setRating] = useState(4);
 
   return (
-    <div className="mx-10">
+    <div className="mt-10 mx-10">
       <div className="border border-[#EAF2EA] rounded-t-xl">
         <img src={Banner} className="w-full h-[7vh] md:h-[15vh] rounded-t-xl" alt="" />
         <div className="w-full p-2 justify-between md:h-[20vh] bg-[#FFFBF2] md:flex">

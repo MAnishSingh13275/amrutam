@@ -6,12 +6,12 @@ import { Button } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <div className="bg-[#FFF7E2]">
-      <div className=" mx-5 md:flex justify-between items-center p-3 mb-5 ">
+      <div className=" mx-5 md:flex justify-between items-center p-3">
         <div className="flex flex-col md:flex-row justify-center md:justify-start items-center w-full md:w-1/3">
           <img src={LOGO} alt="AMRUTAM" className="w-20 md:w-40" />
         </div>
 
-        <div className="flex justify-between items-center w-full my-2 md:w-1/4">
+        <div className="flex justify-between items-center w-full my-2 lg:w-1/4 md:w-1/2">
           <Link to="/" className="text-lg font-semibold text-[#3A643B]">
             Home
           </Link>

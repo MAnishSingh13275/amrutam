@@ -28,7 +28,7 @@ const Appointment = () => {
       <DateSlot />
       <div className=" flex justify-center items-center my-5">
         <Button
-          className="w-[50%] py-7"
+          className=""
           bgColor={"#3A643B"}
           textColor={"#FFFFFF"}
           _hover={{
